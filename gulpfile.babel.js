@@ -1,3 +1,4 @@
+// Importamos librerias js en dev
 import gulp from 'gulp';
 import yargs from 'yargs';
 const sass = require("gulp-sass")(require("sass"));
@@ -14,7 +15,10 @@ import zip from 'gulp-zip';
 import replace from 'gulp-replace';
 import info from './package.json';
 
+// Creamos servidor
 const server = browserSync.create();
+
+// Creamos variable PRODUCTION con yarg
 const PRODUCTION = yargs.argv.prod;
 
 // Guardamos variable con las rutas ( paths )
