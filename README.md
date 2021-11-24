@@ -8,8 +8,8 @@
 npm init
 ```
 
-### Gulp
-- [Gulp & Babel](https://www.npmjs.com/package/gulp#sample-gulpfilejs)
+#### Gulp
+- [Gulp - Instalación y Ejemplo](https://www.npmjs.com/package/gulp#sample-gulpfilejs)
 
 #### Instalar gulp en todo el ordenador
 ```go
