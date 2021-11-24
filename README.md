@@ -74,14 +74,11 @@ export const watch = () => {
 }
 ```
 #### GULP - Webpack multiples archivos (no solo el bundle)
-- [Gulp & Babel](https://www.npmjs.com/package/gulp#use-latest-javascript-version-in-your-gulpfile)
-
-
+- [Webpack multiarchivo](https://www.npmjs.com/package/webpack-stream#multiple-entry-points)
 
 
 
 ## Wordpress
-
 
 ### Hooks
 Los ganchos o hooks en WordPress son puntos concretos y estratégicos dentro del core de WordPress que permiten añadir funcionalidades o modificar un comportamiento.
@@ -96,14 +93,18 @@ do_action('nombre_hook');
 ```
 
 ```go
-add_action('nombre_hook', 'nombre_funcion_ejecutar', 'prioridad');
+add_action('nombre_hook', 'nombre_funcion_ejecutar', 'prioridad', 'numero de argumentos');
 ```
 
 #### Filters
 Los filtros o filter hooks de WordPress manipulan la información en un punto concreto de la ejecución antes de que se muestre en la pantalla o se almacene en la base de dato.
 
 ```go
-add_filter('nombre_hook', 'nombre_filtro_ejecutar');
+apply_filters('nombre_hook');
+```
+
+```go
+add_filter('nombre_hook', 'nombre_filtro_ejecutar', 'prioridad', 'numero de argumentos');
 ```
 
 - [Referencia de Actions de WP](https://codex.wordpress.org/Plugin_API/Action_Reference)
