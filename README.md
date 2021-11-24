@@ -41,9 +41,6 @@ gulp.task('hello' function(done){
 
 <!-- ## Getting started
 ### Hello world
-#### code — app.go -->
+#### code — app.go
 
-
-
-<!-- -
 -  [Variables](https://github.com/MazoGuapo/cheat-sheet#variables) -->
