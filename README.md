@@ -40,6 +40,16 @@ gulp.task('hello' function(done){
 })
 ```
 
+#### Flujo pipe (formato)
+```go
+export const styles = () => {
+    return gulp.src(paths.styles.src)
+        .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest(paths.styles.dest));
+}
+```
+
 <!-- ## Getting started
 ### Hello world
 #### code — app.go
