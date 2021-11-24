@@ -40,7 +40,7 @@ gulp.task('hello' function(done){
 })
 ```
 
-#### GULP - Flujo pipe (formato)
+#### GULP - Flujo pipe (formato) - fuente / tarea / destino
 ```go
 export const styles = () => {
     return gulp.src(paths.styles.src)
