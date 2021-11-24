@@ -1,6 +1,6 @@
 # Go
--  [Hello World](https://github.com/LouisPetrik/cheatsheet/blob/master/go.md#hello-world)
--  [Variables](https://github.com/LouisPetrik/cheatsheet/blob/master/go.md#variables)
+-  [Hello World](https://github.com/MazoGuapo/cheat-sheet#hello-world)
+-  [Variables](https://github.com/MazoGuapo/cheat-sheet#variables)
 
 ```go
 package main // a package must be defined
