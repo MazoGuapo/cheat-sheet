@@ -1,5 +1,8 @@
 # Wordpress Development Cheat Sheet
 - [NPM & Gulp](https://github.com/MazoGuapo/cheat-sheet#npm--gulp)
+- [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
+  + [Hooks - Actions y Filters](https://github.com/MazoGuapo/cheat-sheet#wordpress)
+  + [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
 
 ## NPM & Gulp
 
