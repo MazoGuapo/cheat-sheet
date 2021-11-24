@@ -17,7 +17,7 @@ import info from './package.json';
 const server = browserSync.create();
 const PRODUCTION = yargs.argv.prod;
 
-// Variable con las rutas ( paths )
+// Guardamos variable con las rutas ( paths )
 const paths = {
     styles: {
         src: ['src/assets/scss/bundle.scss', 'src/assets/scss/admin.scss'],
@@ -46,9 +46,8 @@ export const serve = (done) => {
     server.init({
         proxy: "http://udemydemo/"
     })
-    done();
+    done(); // Done hace que se "lance" esta funcion
 }
-
 
 // Browser sync > refrescar servidor
 export const reload = (done) => {
@@ -62,6 +61,7 @@ export const clean = () => {
 }
 
 // Tarea para compilar sass y generar el sourcemap ( produccion y desarrollo - gulpif )
+// Incluye compatibilidad de CSS (cleanCSS) y Soucemap
 export const styles = () => {
     return gulp.src(paths.styles.src)
         .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
@@ -72,7 +72,7 @@ export const styles = () => {
         .pipe(server.stream());
 }
 
-// Tarea para las imagenes + compresion
+// Tarea para las gestionar las imagenes + compresion
 export const images = () => {
     return gulp.src(paths.images.src)
         .pipe(gulpif(PRODUCTION, imagemin()))
@@ -94,8 +94,8 @@ export const watch = () => {
     gulp.watch(paths.other.src, gulp.series(copy, reload));
 }
 
-
-// Webpack
+// Tarea Compilar JS > Webpack (unificar todo el js en un archivo)
+// Uglify minimifica el js
 export const scripts = () => {
     return gulp.src(paths.scripts.src)
         .pipe(named())
@@ -141,7 +141,7 @@ export const dev = gulp.series(clean, gulp.parallel(styles, scripts, images, cop
 export const build = gulp.series(clean, gulp.parallel(styles, scripts, images, copy))
 export const bundle = gulp.series(build, compress);
 
-// Asignamos dev como "por defecto"
+// Asignamos dev como tarea "por defecto"
 export default dev;
 
 // Produccion
