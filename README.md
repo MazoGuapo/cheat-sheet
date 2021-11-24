@@ -54,6 +54,24 @@ export const styles = () => {
 export const build = gulp.series(clean, gulp.parallel(styles, scripts, images, copy))
 ```
 
+#### GULP - Parallel - una tarea a la vez que otra
+```go
+export const hello = gulp.parallel(styles, scripts, images, copy)
+```
+
+#### GULP - Watch - Observa cualquier cambio donde le indiques
+```go
+export const watch = () => {
+    gulp.watch('src/assets/scss/**/*.scss', styles );
+    gulp.watch('src/assets/js/**/*.js', gulp.series(scripts, reload));
+    gulp.watch('**/*.php', reload);
+    gulp.watch(paths.images.src, gulp.series(images, reload));
+    gulp.watch(paths.other.src, gulp.series(copy, reload));
+}
+```
+
+
+
 ## Recursos
 - [Node](https://nodejs.org/es/)
 - [Gulp npm](https://www.npmjs.com/package/gulp)
