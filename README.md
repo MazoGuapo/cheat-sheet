@@ -24,7 +24,7 @@ npm install --save-dev gulp
 #### Babel (compatibilidad con js)
 - [Gulp & Babel](https://www.npmjs.com/package/gulp#use-latest-javascript-version-in-your-gulpfile)
 
-#### Tareas por defecto de gulp (formato)
+#### GULP - Tareas por defecto de gulp (formato)
 ```go
 import gulp from 'gulp';
 
@@ -40,7 +40,7 @@ gulp.task('hello' function(done){
 })
 ```
 
-#### Flujo pipe (formato)
+#### GULP - Flujo pipe (formato)
 ```go
 export const styles = () => {
     return gulp.src(paths.styles.src)
@@ -49,15 +49,22 @@ export const styles = () => {
 }
 ```
 
+#### GULP - Series - una tarea después de otra
+```go
+export const build = gulp.series(clean, gulp.parallel(styles, scripts, images, copy))
+```
+
 ## Recursos
 - [Node](https://nodejs.org/es/)
 - [Gulp npm](https://www.npmjs.com/package/gulp)
-- [Yargs](https://www.npmjs.com/package/yargs)
-- [Gulp Sass](https://www.npmjs.com/package/gulp-sass)
-- [Clean CSS](https://www.npmjs.com/package/clean-css)
-- [Gulp IF](https://www.npmjs.com/package/gulp-if)
-- [Gulp Sourcemap](https://www.npmjs.com/package/gulp-sourcemaps)
-<!-- - [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Yargs - produccion vs development](https://www.npmjs.com/package/yargs)
+- [Gulp Sass - compilacion](https://www.npmjs.com/package/gulp-sass)
+- [Clean CSS - Compatibilidad de CSS](https://www.npmjs.com/package/clean-css)
+- [Gulp IF - Condicionales en Gulp](https://www.npmjs.com/package/gulp-if)
+- [Gulp Sourcemap - Generar Sourcemap](https://www.npmjs.com/package/gulp-sourcemaps)
+- [Gulp Imagemin - Procesado de imagenes y compresion](https://www.npmjs.com/package/gulp-imagemin)
+- [del - Procesado de imagenes y compresion](https://www.npmjs.com/package/gulp-imagemin)
+<!-- -
 - [Gulp npm](https://www.npmjs.com/package/gulp)
 - [Gulp npm](https://www.npmjs.com/package/gulp)
 - [Gulp npm](https://www.npmjs.com/package/gulp)
