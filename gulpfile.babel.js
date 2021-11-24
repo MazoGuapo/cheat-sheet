@@ -65,7 +65,7 @@ export const clean = () => {
 }
 
 // Tarea para compilar sass y generar el sourcemap ( produccion y desarrollo - gulpif )
-// Incluye compatibilidad de CSS (cleanCSS) y Soucemap
+// Incluye compatibilidad de CSS (cleanCSS) y Sourcemap
 export const styles = () => {
     return gulp.src(paths.styles.src)
         .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
