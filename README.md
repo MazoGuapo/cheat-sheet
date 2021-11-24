@@ -49,6 +49,51 @@ export const styles = () => {
 }
 ```
 
+## Recursos
+- [Node](https://nodejs.org/es/)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Yargs](https://www.npmjs.com/package/yargs)
+- [Gulp Sass](https://www.npmjs.com/package/gulp-sass)
+- [Clean CSS](https://www.npmjs.com/package/clean-css)
+- [Gulp IF](https://www.npmjs.com/package/gulp-if)
+- [Gulp Sourcemap](https://www.npmjs.com/package/gulp-sourcemaps)
+<!-- - [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp)
+- [Gulp npm](https://www.npmjs.com/package/gulp) -->
+
+
 <!-- ## Getting started
 ### Hello world
 #### code — app.go
