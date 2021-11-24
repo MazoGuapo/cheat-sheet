@@ -32,7 +32,7 @@ gulp.task('hello' function(done){
 ```
 
 #### Babel (compatibilidad con js)
-- [Hello World](https://www.npmjs.com/package/gulp#use-latest-javascript-version-in-your-gulpfile)
+- [Gulp & Babel](https://www.npmjs.com/package/gulp#use-latest-javascript-version-in-your-gulpfile)
 
 
 
