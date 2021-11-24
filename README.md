@@ -99,8 +99,6 @@ do_action('nombre_hook');
 add_action('nombre_hook', 'nombre_funcion_ejecutar', 'prioridad');
 ```
 
-- [Referencia de Actions de WP](https://codex.wordpress.org/Plugin_API/Action_Reference)
-
 #### Filters
 Los filtros o filter hooks de WordPress manipulan la información en un punto concreto de la ejecución antes de que se muestre en la pantalla o se almacene en la base de dato.
 
@@ -108,7 +106,9 @@ Los filtros o filter hooks de WordPress manipulan la información en un punto co
 add_filter('nombre_hook', 'nombre_filtro_ejecutar');
 ```
 
+- [Referencia de Actions de WP](https://codex.wordpress.org/Plugin_API/Action_Reference)
 - [Referencia de Filters de WP](https://codex.wordpress.org/Plugin_API/Filter_Reference)
+- [Referencia de Actions & Filters completa de WP](https://adambrown.info/p/wp_hooks/hook)
 
 
 
