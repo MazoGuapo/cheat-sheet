@@ -1,7 +1,7 @@
 # Wordpress Development Cheat Sheet
 - [NPM & Gulp](https://github.com/MazoGuapo/cheat-sheet#npm--gulp)
 - [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
-  + [Hooks - Actions y Filters](https://github.com/MazoGuapo/cheat-sheet#wordpress)
+  + [Hooks - Actions y Filters](https://github.com/MazoGuapo/cheat-sheet#hooks)
   + [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
 
 ## NPM & Gulp
@@ -99,8 +99,16 @@ do_action('nombre_hook');
 add_action('nombre_hook', 'nombre_funcion_ejecutar', 'prioridad');
 ```
 
+- [Referencia de Actions de WP](https://codex.wordpress.org/Plugin_API/Action_Reference)
+
 #### Filters
 Los filtros o filter hooks de WordPress manipulan la información en un punto concreto de la ejecución antes de que se muestre en la pantalla o se almacene en la base de dato.
+
+```go
+add_filter('nombre_hook', 'nombre_filtro_ejecutar');
+```
+
+- [Referencia de Filters de WP](https://codex.wordpress.org/Plugin_API/Filter_Reference)
 
 
 
