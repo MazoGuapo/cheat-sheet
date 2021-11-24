@@ -21,6 +21,9 @@ npm install --global gulp-cli
 npm install --save-dev gulp
 ```
 
+#### Babel (compatibilidad con js)
+- [Gulp & Babel](https://www.npmjs.com/package/gulp#use-latest-javascript-version-in-your-gulpfile)
+
 #### Tareas por defecto de gulp (formato)
 ```go
 import gulp from 'gulp';
@@ -36,11 +39,6 @@ gulp.task('hello' function(done){
   done();
 })
 ```
-
-#### Babel (compatibilidad con js)
-- [Gulp & Babel](https://www.npmjs.com/package/gulp#use-latest-javascript-version-in-your-gulpfile)
-
-
 
 <!-- ## Getting started
 ### Hello world
