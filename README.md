@@ -15,7 +15,7 @@ npm install --global gulp-cli
 npm install --save-dev gulp
 ```
 
-#### Instalar gulp en el proyecto
+#### Tareas por defecto de gulp (formato)
 ```go
 import gulp from 'gulp';
 
@@ -24,7 +24,16 @@ gulp.task('default', defaultTask);
 function defaultTask(done){
   done();
 }
+
+gulp.task('hello' function(done){
+  console.log('hello');
+  done();
+})
 ```
+
+#### Babel (compatibilidad con js)
+- [Hello World](https://www.npmjs.com/package/gulp#user-content-use-latest-javascript-version-in-your-gulpfile)
+
 
 
 <!-- ## Getting started
@@ -33,5 +42,5 @@ function defaultTask(done){
 
 
 
-<!-- -  [Hello World](https://github.com/MazoGuapo/cheat-sheet#hello-world)
+<!-- -
 -  [Variables](https://github.com/MazoGuapo/cheat-sheet#variables) -->
