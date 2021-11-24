@@ -60,6 +60,7 @@ export const hello = gulp.parallel(styles, scripts, images, copy)
 ```
 
 #### GULP - Watch - Observa cualquier cambio donde le indiques
+El primer argumento es la ruta a observar, el segundo la tarea a ejecutar una vez detectado el cambio
 ```go
 export const watch = () => {
     gulp.watch('src/assets/scss/**/*.scss', styles );
@@ -69,6 +70,35 @@ export const watch = () => {
     gulp.watch(paths.other.src, gulp.series(copy, reload));
 }
 ```
+#### GULP - Webpack multiples archivos (no solo el bundle)
+- [Gulp & Babel](https://www.npmjs.com/package/gulp#use-latest-javascript-version-in-your-gulpfile)
+
+
+
+
+
+## Wordpress
+
+
+### Hooks
+Los ganchos o hooks en WordPress son puntos concretos y estratégicos dentro del core de WordPress que permiten añadir funcionalidades o modificar un comportamiento.
+
+Wordpress tiene los suyos propios y tu puedes crear los tuyos.
+
+#### Actions
+Las acciones o action hooks ejecutan una función propia en un lugar preciso en un momento determinado de la línea de ejecución de WordPress
+
+```go
+do_action('nombre_hook');
+```
+
+```go
+add_action('nombre_hook', 'nombre_funcion_ejecutar', 'prioridad');
+```
+
+#### Filters
+Los filtros o filter hooks de WordPress manipulan la información en un punto concreto de la ejecución antes de que se muestre en la pantalla o se almacene en la base de dato.
+
 
 
 
@@ -82,8 +112,16 @@ export const watch = () => {
 - [Gulp Sourcemap - Generar Sourcemap](https://www.npmjs.com/package/gulp-sourcemaps)
 - [Gulp Imagemin - Procesado de imagenes y compresion](https://www.npmjs.com/package/gulp-imagemin)
 - [del - Procesado de imagenes y compresion](https://www.npmjs.com/package/gulp-imagemin)
+- [Webpack Stream - Bundle ***](https://www.npmjs.com/package/webpack-stream)
+- [Babel loader - Babel & Webpack](https://www.npmjs.com/package/babel-loader)
+- [Gulp Uglify - Minificar js](https://www.npmjs.com/package/gulp-uglify)
+- [Browser Sync - Refrescar Navegador](https://browsersync.io/)
+
+
+
+
 <!-- -
-- [Gulp npm](https://www.npmjs.com/package/gulp)
+
 - [Gulp npm](https://www.npmjs.com/package/gulp)
 - [Gulp npm](https://www.npmjs.com/package/gulp)
 - [Gulp npm](https://www.npmjs.com/package/gulp)
