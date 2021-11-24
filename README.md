@@ -3,17 +3,20 @@
 
 ## NPM & Gulp
 
-#### Crear archivo package.json (en la terminal)
+#### Crear archivo package.json (en la terminal dentro de la carpeta del proyecto)
 ```go
 npm init
 ```
+
+### Gulp
+- [Gulp & Babel](https://www.npmjs.com/package/gulp#sample-gulpfilejs)
 
 #### Instalar gulp en todo el ordenador
 ```go
 npm install --global gulp-cli
 ```
 
-#### Instalar gulp en el proyecto
+#### Instalar gulp en el proyecto (en la terminal dentro de la carpeta del proyecto)
 ```go
 npm install --save-dev gulp
 ```
