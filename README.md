@@ -1,5 +1,5 @@
 # Wordpress Development Cheat Sheet
-- [NPM & Gulp](https://www.npmjs.com/package/gulp#use-latest-javascript-version-in-your-gulpfile)
+- [NPM & Gulp](https://github.com/MazoGuapo/cheat-sheet#npm--gulp)
 
 ## NPM & Gulp
 
