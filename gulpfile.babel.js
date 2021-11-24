@@ -100,6 +100,7 @@ export const watch = () => {
 
 // Tarea Compilar JS > Webpack (unificar todo el js en un archivo)
 // Uglify minimifica el js
+// Usamos babel-loader para compatibilzar con Babel
 export const scripts = () => {
     return gulp.src(paths.scripts.src)
         .pipe(named())
