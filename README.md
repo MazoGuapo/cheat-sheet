@@ -167,6 +167,12 @@ add_filter('nombre_hook', 'nombre_filtro_ejecutar', 'prioridad', 'numero de argu
 - [WP CSS](https://codex.wordpress.org/CSS)
 - [WP Query (Class)](https://developer.wordpress.org/reference/classes/wp_query/)
 
+## Recursos Desarrollo
+- [PHP orientado a objetos - clases y obejtos (Resumen)](https://victorroblesweb.es/2016/05/28/php-poo-clases-atributos-metodos-objetos/)
+- [PHP orientado a objetos - clases y obejtos (Resumen II)](https://code.tutsplus.com/es/tutorials/basics-of-object-oriented-programming-in-php--cms-31910)
+- [PHP orientado a objetos - clases y obejtos (Extend)](https://expreso-php.readthedocs.io/es/latest/pages/03_poo.html)
+
+
 
 <!-- -
 
