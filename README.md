@@ -103,12 +103,12 @@ export const watch = () => {
 ## Wordpress
 
 ### Hooks
-Los ganchos o hooks en WordPress <u>son puntos concretos y estratégicos dentro del core de WordPress</u> que <u>permiten añadir funcionalidades o modificar un comportamiento</u>.
+Los ganchos o hooks en WordPress <strong>son puntos concretos y estratégicos dentro del core de WordPress</strong> que <strong>permiten añadir funcionalidades o modificar un comportamiento</strong>.
 
 Wordpress tiene los suyos propios y tu puedes crear los tuyos.
 
 #### Actions
-Las acciones o action hooks ejecutan una función propia en un lugar preciso en un momento determinado de la línea de ejecución de WordPress
+Las acciones o action hooks <strong>ejecutan una función propia en un lugar preciso en un momento determinado de la línea de ejecución de WordPress</strong>
 
 ```go
 do_action('nombre_hook');
@@ -119,7 +119,7 @@ add_action('nombre_hook', 'nombre_funcion_ejecutar', 'prioridad', 'numero de arg
 ```
 
 #### Filters
-Los filtros o filter hooks de WordPress manipulan la información en un punto concreto de la ejecución antes de que se muestre en la pantalla o se almacene en la base de dato.
+Los filtros o filter hooks de WordPress <strong>manipulan la información en un punto concreto de la ejecución antes de que se muestre en la pantalla o se almacene en la base de dato</strong>.
 
 ```go
 apply_filters('nombre_hook');
