@@ -4,6 +4,7 @@
 - [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
   + [Hooks - Actions y Filters](https://github.com/MazoGuapo/cheat-sheet#hooks)
   + [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
+- [Recursos](https://github.com/MazoGuapo/cheat-sheet#recursos)
 
 ## NPM & Gulp
 
