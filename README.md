@@ -1,6 +1,6 @@
 # Wordpress Development Cheat Sheet
 - [NPM & Gulp](https://github.com/MazoGuapo/cheat-sheet#npm--gulp)
-- [Maquetacion](https://github.com/MazoGuapo/cheat-sheet#npm--gulp)
+- [Maquetacion](https://github.com/MazoGuapo/cheat-sheet#maquetacion)
 - [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
   + [Hooks - Actions y Filters](https://github.com/MazoGuapo/cheat-sheet#hooks)
   + [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
@@ -86,7 +86,7 @@ export const watch = () => {
 
 
 
-## NPM & Gulp
+## Maquetacion
 
 #### Lecturas
 - [ITCSS](https://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528)
