@@ -161,7 +161,7 @@ add_filter('nombre_hook', 'nombre_filtro_ejecutar', 'prioridad', 'numero de argu
 - [Lista completa de Hooks WP](https://adambrown.info/p/wp_hooks/hook)
 - [Listado oficial de Template tags](https://codex.wordpress.org/Template_Tags)
 - [Jerarquia de archivos](https://developer.wordpress.org/files/2014/10/wp-hierarchy.png)
-- [Validación de variables](https://developer.wordpress.org/themes/theme-security/data-validation/)
+- [Validación de variables - php & core](https://developer.wordpress.org/themes/theme-security/data-validation/)
 - [Sanitazion/Escaping variables - limpieza de variables ](https://developer.wordpress.org/themes/theme-security/data-sanitization-escaping/)
 - [Enqueque y plugins js incluidos en WP](https://developer.wordpress.org/reference/functions/wp_enqueue_script/)
 - [WP CSS](https://codex.wordpress.org/CSS)
