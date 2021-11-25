@@ -89,9 +89,9 @@ export const watch = () => {
 ## Maquetacion
 
 #### Lecturas
-- [ITCSS](https://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528)
-- [Nomenglatura](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
-- [Nomenglatura II](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+- [ITCSS - piramide invertida](https://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528)
+- [Nomenglatura clases](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+- [Nomenglatura clases II](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
 
 
 
@@ -129,9 +129,9 @@ apply_filters('nombre_hook');
 add_filter('nombre_hook', 'nombre_filtro_ejecutar', 'prioridad', 'numero de argumentos');
 ```
 
-- [Referencia de Actions de WP](https://codex.wordpress.org/Plugin_API/Action_Reference)
-- [Referencia de Filters de WP](https://codex.wordpress.org/Plugin_API/Filter_Reference)
-- [Referencia de Actions & Filters completa de WP](https://adambrown.info/p/wp_hooks/hook)
+- [Listado oficial de Actions de WP](https://codex.wordpress.org/Plugin_API/Action_Reference)
+- [Listado oficial de Filters de WP](https://codex.wordpress.org/Plugin_API/Filter_Reference)
+- [Lista completa de Hooks WP](https://adambrown.info/p/wp_hooks/hook)
 
 
 
