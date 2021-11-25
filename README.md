@@ -1,5 +1,6 @@
 # Wordpress Development Cheat Sheet
 - [NPM & Gulp](https://github.com/MazoGuapo/cheat-sheet#npm--gulp)
+- [Maquetacion](https://github.com/MazoGuapo/cheat-sheet#npm--gulp)
 - [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
   + [Hooks - Actions y Filters](https://github.com/MazoGuapo/cheat-sheet#hooks)
   + [Wordpres](https://github.com/MazoGuapo/cheat-sheet#wordpress)
@@ -75,6 +76,27 @@ export const watch = () => {
 ```
 #### GULP - Webpack multiples archivos (no solo el bundle)
 - [Webpack multiarchivo](https://www.npmjs.com/package/webpack-stream#multiple-entry-points)
+
+
+
+
+
+
+
+
+
+
+## NPM & Gulp
+
+#### Lecturas
+- [ITCSS](https://www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528)
+- [Nomenglatura](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+- [Nomenglatura II](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/)
+
+
+
+
+
 
 
 
