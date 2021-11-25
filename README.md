@@ -134,6 +134,17 @@ add_filter('nombre_hook', 'nombre_filtro_ejecutar', 'prioridad', 'numero de argu
 - [Listado oficial de Filters de WP](https://codex.wordpress.org/Plugin_API/Filter_Reference)
 - [Lista completa de Hooks WP](https://adambrown.info/p/wp_hooks/hook)
 
+#### Template parts
+Organizar tus archivos por partes
+```go
+get_template_parts('template-parts/post/post-content');
+```
+
+Get 'post-content-none'
+```go
+get_template_parts('template-parts/post/post-content','index');
+```
+
 
 
 
