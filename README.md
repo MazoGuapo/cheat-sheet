@@ -103,7 +103,7 @@ export const watch = () => {
 ## Wordpress
 
 ### Hooks
-Los ganchos o hooks en WordPress <strong>son puntos concretos y estratégicos dentro del core de WordPress</strong> que <strong>permiten añadir funcionalidades o modificar un comportamiento</strong>.
+Los ganchos o hooks en WordPress <u>son puntos concretos y estratégicos dentro del core de WordPress</u> que <u>permiten añadir funcionalidades o modificar un comportamiento</u>.
 
 Wordpress tiene los suyos propios y tu puedes crear los tuyos.
 
